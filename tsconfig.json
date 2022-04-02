@@ -1,0 +1,28 @@
+{
+  "extends": "@daotl/tsconfig/vue.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "vite/client",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client",
+      "unplugin-icons/types/vue",
+      "element-plus/global"
+    ],
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.js",
+    "**/*.ts",
+    "src/**/*.vue",
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

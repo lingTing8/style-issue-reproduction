@@ -1,0 +1,35 @@
+$primary: #409eff;
+$success: #67c23a;
+$warning: #e6a23c;
+$danger: #f56c6c;
+$info: #909399;
+$primaryText: #303133;
+$baseBorder: #dcdfe6;
+$basicBlack: black;
+$regularText: #606266;
+$lightBorder: #e4e7ed;
+$basicWhite: white;
+$secondaryText: #909399;
+$lighterBorder: #ebeef5;
+$placeholderText: #c0c4cc;
+$extraLightBorder: #f2f6fc;
+$primaryBackground: #e7f2fe;
+
+$transition-color: 0.3s;
+
+// 圆角
+$border-radius-default: 4px;
+// 间距
+$space-default: 12px;
+// 阴影
+$box-shadow-default: 0 0 0 1px $baseBorder inset;
+$box-shadow-active: 0 0 0 1px $primary inset;
+
+:export {
+  primary: $primary;
+  success: $success;
+  warning: $warning;
+  danger: $danger;
+  info: $info;
+  primaryText: $primaryText;
+}
